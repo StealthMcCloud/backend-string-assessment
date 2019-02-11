@@ -38,7 +38,7 @@ def not_bad(s):
     s_bad = s.find('bad')  
   
     if s_bad > s_not:  
-        s = s.replace(s[s_not:(s_bad+4)], 'good')  
+        s = s.replace(s[s_not:(s_bad+3)], 'good')  
   
     return s
 
